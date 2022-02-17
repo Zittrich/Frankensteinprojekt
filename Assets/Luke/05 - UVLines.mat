@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 05 - UVLines
+  m_Shader: {fileID: 4800000, guid: 4adbaf8524ba5d646aacf6a84ff4d9a4, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Lines:
+        m_Texture: {fileID: 2800000, guid: f42d8a0172b72f44cb252f61d52c9c78, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _GlobalOpacity: 1
+    - _JellyStrength: 0
+    - _LineDensity: 10
+    - _LineStrength: 1
+    m_Colors:
+    - _BaseColor: {r: 0, g: 1, b: 0.15127659, a: 0.14117648}
+  m_BuildTextureStacks: []
