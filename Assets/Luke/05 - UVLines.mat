@@ -33,5 +33,5 @@ Material:
     - _LineDensity: 10
     - _LineStrength: 1
     m_Colors:
-    - _BaseColor: {r: 0, g: 1, b: 0.15127659, a: 0.14117648}
+    - _BaseColor: {r: 0, g: 1, b: 0.15294123, a: 0.14117648}
   m_BuildTextureStacks: []

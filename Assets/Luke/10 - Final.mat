@@ -24,26 +24,29 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 5f2ac9afb6883f14ebd9524f3896b90a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _ColorBlend: 1
     - _GlobalOpacity: 1
     - _JellyStrength: 0
-    - _LineDensity: 4
-    - _LineStrength: 0.3
+    - _LineDensity: 32
+    - _LineHardness: 0
+    - _LineStrength: 0.2
+    - _LineThickness: 0.5
     - _MaxOpacity: 0.5
     - _MinOpacity: 0.3
     - _MovingLineDensity: 0.2
     - _MovingLineOpacity: 1
     - _MovingLinePow: 10
-    - _MovingLineSpeed: 1
+    - _MovingLineSpeed: 0.5
     - _MovingLineStrength: 1
     - _OutlineStrength: 5
     - _Property: 1
     m_Colors:
     - _BaseColor: {r: 0, g: 0.45500898, b: 1, a: 1}
-    - _LineColor: {r: 0.16565657, g: 0, b: 1, a: 1}
+    - _LineColor: {r: 0, g: 0.5085187, b: 1, a: 1}
     - _MovingLineColor: {r: 0.740566, g: 0.91741157, b: 1, a: 1}
     - _OutlineColor: {r: 0.8915094, g: 0.9254717, b: 1, a: 1}
   m_BuildTextureStacks: []

@@ -15,11 +15,11 @@ D:/ProjektFrankenstein/Frankensteinprojekt
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63132
+50668
 Successfully changed project path to: D:/ProjektFrankenstein/Frankensteinprojekt
 D:/ProjektFrankenstein/Frankensteinprojekt
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 48.28 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 38.63 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.25f1 (9b9180224418)
 [Subsystems] Discovering subsystems at path C:/Program Files/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/2020.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56708
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56552
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004259 seconds.
+Registered in 0.002141 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 27.69 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 37.65 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.533 seconds
+- Completed reload, in  0.792 seconds
 Domain Reload Profiling:
-	ReloadAssembly (533ms)
-		BeginReloadAssembly (54ms)
+	ReloadAssembly (792ms)
+		BeginReloadAssembly (64ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (411ms)
-			LoadAssemblies (51ms)
+		EndReloadAssembly (638ms)
+			LoadAssemblies (62ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (133ms)
+			SetupTypeCache (210ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (153ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (224ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (28ms)
-				BeforeProcessingInitializeOnLoad (18ms)
-				ProcessInitializeOnLoadAttributes (78ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
+				RefreshPlugins (38ms)
+				BeforeProcessingInitializeOnLoad (19ms)
+				ProcessInitializeOnLoadAttributes (118ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.258303 seconds.
+Registered in 0.039376 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.220 seconds
+- Completed reload, in  1.534 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1220ms)
-		BeginReloadAssembly (126ms)
+	ReloadAssembly (1535ms)
+		BeginReloadAssembly (176ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (1040ms)
-			LoadAssemblies (376ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1255ms)
+			LoadAssemblies (149ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (243ms)
+			SetupTypeCache (449ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (295ms)
+			RebuildScriptCaches (87ms)
+			SetupLoadedEditorAssemblies (407ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (75ms)
-				ProcessInitializeOnLoadAttributes (195ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (256ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1502 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.3 MB.
-System memory in use after: 68.4 MB.
+Unloading 1508 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.1 MB.
+System memory in use after: 69.2 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1935.
-Total: 2.773400 ms (FindLiveObjects: 0.124900 ms CreateObjectMapping: 0.042500 ms MarkObjects: 2.538600 ms  DeleteObjects: 0.066300 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1941.
+Total: 4.082800 ms (FindLiveObjects: 0.187300 ms CreateObjectMapping: 0.067200 ms MarkObjects: 3.720600 ms  DeleteObjects: 0.104500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,297 +131,25 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Luke/02 - Hologram_01.shader
-  artifactKey: Guid(77f169368a799cf46a3c52b24dab0f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Luke/02 - Hologram_01.shader using Guid(77f169368a799cf46a3c52b24dab0f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e653dbcfc25ba11cc4f22c892b9373fe') in 0.037186 seconds 
-  Import took 0.111520 seconds .
+  path: Assets/Luke/10 - Final.shader
+  artifactKey: Guid(4a6e682aeb683fa46aaadd176aa14230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Luke/10 - Final.shader using Guid(4a6e682aeb683fa46aaadd176aa14230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df00debdb1152086d07c7cc8bc431a67') in 0.058546 seconds 
+  Import took 0.094502 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.364268 seconds.
-  path: Assets/Luke/Unlit_02 - Hologram_01.mat
-  artifactKey: Guid(7c162077bc7846d4394f1d4ec9c5e0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Luke/Unlit_02 - Hologram_01.mat using Guid(7c162077bc7846d4394f1d4ec9c5e0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '326fcb27cbce66c7fe2e7dff656a49f7') in 0.093554 seconds 
-  Import took 0.095801 seconds .
+  Time since last request: 75.331046 seconds.
+  path: Assets/Luke/10 - Final.shader
+  artifactKey: Guid(4a6e682aeb683fa46aaadd176aa14230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Luke/10 - Final.shader using Guid(4a6e682aeb683fa46aaadd176aa14230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '189848c97e5a937c2ccdcc94067ad052') in 0.005931 seconds 
+  Import took 0.033446 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 241.950163 seconds.
-  path: Assets/Luke/02 - Hologram_01.shader
-  artifactKey: Guid(77f169368a799cf46a3c52b24dab0f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Luke/02 - Hologram_01.shader using Guid(77f169368a799cf46a3c52b24dab0f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5541a33f8f82babd70ea469fedd8aec0') in 0.002744 seconds 
-  Import took 0.021797 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 215.731337 seconds.
-  path: Assets/Luke/Unlit_02 - Hologram_01.mat
-  artifactKey: Guid(7c162077bc7846d4394f1d4ec9c5e0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Luke/Unlit_02 - Hologram_01.mat using Guid(7c162077bc7846d4394f1d4ec9c5e0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a876a4e800252899e76009c6666dbcb3') in 0.012834 seconds 
-  Import took 0.015624 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2472.588457 seconds.
-  path: Assets/Luke/Unlit_02 - Hologram_01.mat
-  artifactKey: Guid(7c162077bc7846d4394f1d4ec9c5e0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Luke/Unlit_02 - Hologram_01.mat using Guid(7c162077bc7846d4394f1d4ec9c5e0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62aa5af09f556d79b5e4ba34c8444c0a') in 0.024772 seconds 
-  Import took 0.027712 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.976208 seconds.
-  path: Assets/Luke/Unlit_02 - Hologram_01.mat
-  artifactKey: Guid(7c162077bc7846d4394f1d4ec9c5e0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Luke/Unlit_02 - Hologram_01.mat using Guid(7c162077bc7846d4394f1d4ec9c5e0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44092dee6279429346915f0045607b68') in 0.010689 seconds 
-  Import took 0.026397 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3014.717609 seconds.
-  path: Assets/Luke/02 - Hologram_01.shader
-  artifactKey: Guid(77f169368a799cf46a3c52b24dab0f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Luke/02 - Hologram_01.shader using Guid(77f169368a799cf46a3c52b24dab0f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc440cbda0ae76e56faca4b883b0b22') in 0.007603 seconds 
-  Import took 0.010572 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.268947 seconds.
-  path: Assets/Luke/Unlit_02 - Hologram_01.mat
-  artifactKey: Guid(7c162077bc7846d4394f1d4ec9c5e0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Luke/Unlit_02 - Hologram_01.mat using Guid(7c162077bc7846d4394f1d4ec9c5e0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba74dd09309e89031f7f9dad59940aee') in 0.020705 seconds 
-  Import took 0.026865 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Luke/02 - Hologram_01 1.shader
-  artifactKey: Guid(3b8f9936871da3f42aceca89ef39f914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Luke/02 - Hologram_01 1.shader using Guid(3b8f9936871da3f42aceca89ef39f914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5415c19c5d677f41df23b63e187d52e') in 0.009465 seconds 
-  Import took 0.016312 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.884932 seconds.
-  path: Assets/Luke/02 - HologramLines.shader
-  artifactKey: Guid(3b8f9936871da3f42aceca89ef39f914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Luke/02 - HologramLines.shader using Guid(3b8f9936871da3f42aceca89ef39f914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '917961e80ea122279e0994797a83b10a') in 0.007285 seconds 
-  Import took 0.038935 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.734282 seconds.
-  path: Assets/Luke/03 - HologramLines.shader
-  artifactKey: Guid(3b8f9936871da3f42aceca89ef39f914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Luke/03 - HologramLines.shader using Guid(3b8f9936871da3f42aceca89ef39f914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe8f3bf406d0886073290b7258d01223') in 0.006652 seconds 
-  Import took 0.009798 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.712355 seconds.
-  path: Assets/Luke/03 - HologramLines.shader
-  artifactKey: Guid(3b8f9936871da3f42aceca89ef39f914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Luke/03 - HologramLines.shader using Guid(3b8f9936871da3f42aceca89ef39f914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4575e5f1840577752719cb0557bd762') in 0.003703 seconds 
-  Import took 0.006477 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.295724 seconds.
-  path: Assets/Luke/Unlit_03 - HologramLines.mat
-  artifactKey: Guid(57baf04bd7ec4c6498d8d1ad185adac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Luke/Unlit_03 - HologramLines.mat using Guid(57baf04bd7ec4c6498d8d1ad185adac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f004d99f971fa4e3afd28f40ad80a28') in 0.016032 seconds 
-  Import took 0.018446 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 44.479823 seconds.
-  path: Assets/Luke/Unlit_03 - HologramLines.mat
-  artifactKey: Guid(57baf04bd7ec4c6498d8d1ad185adac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Luke/Unlit_03 - HologramLines.mat using Guid(57baf04bd7ec4c6498d8d1ad185adac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93421cae4163f32adf7faa8e4c3330cb') in 0.012115 seconds 
-  Import took 0.022718 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 208.971556 seconds.
-  path: Assets/Luke/Unlit_03 - HologramLines.mat
-  artifactKey: Guid(57baf04bd7ec4c6498d8d1ad185adac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Luke/Unlit_03 - HologramLines.mat using Guid(57baf04bd7ec4c6498d8d1ad185adac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e3687df8dcf056b9f5753ea66b5a8e') in 0.013972 seconds 
-  Import took 0.016891 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 89.928619 seconds.
-  path: Assets/Luke/Unlit_03 - HologramLines.mat
-  artifactKey: Guid(57baf04bd7ec4c6498d8d1ad185adac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Luke/Unlit_03 - HologramLines.mat using Guid(57baf04bd7ec4c6498d8d1ad185adac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff8211121d28d216605c51a7d6884d1') in 0.013364 seconds 
-  Import took 0.016213 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 47.594692 seconds.
-  path: Assets/Luke/Unlit_02 - Hologram_01 1.mat
-  artifactKey: Guid(7d297d8efc6fbec43b06895c982267a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Luke/Unlit_02 - Hologram_01 1.mat using Guid(7d297d8efc6fbec43b06895c982267a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed3fee7282e3588e55855f0eec9cc2da') in 0.010951 seconds 
-  Import took 0.013716 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.853048 seconds.
-  path: Assets/Luke/02 - Hologram_01 1.shader
-  artifactKey: Guid(4ef49039135093d40a25bfad7e628f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Luke/02 - Hologram_01 1.shader using Guid(4ef49039135093d40a25bfad7e628f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20d23ba97ff4ff945167047e38fdabb7') in 0.004945 seconds 
-  Import took 0.011269 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.324352 seconds.
-  path: Assets/Luke/04 - Lines.shader
-  artifactKey: Guid(4ef49039135093d40a25bfad7e628f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Luke/04 - Lines.shader using Guid(4ef49039135093d40a25bfad7e628f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69b0b37a8c3312d9873c7fcb3e976046') in 0.004917 seconds 
-  Import took 0.022580 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.730923 seconds.
-  path: Assets/Luke/03 - HologramLines.shader
-  artifactKey: Guid(3b8f9936871da3f42aceca89ef39f914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Luke/03 - HologramLines.shader using Guid(3b8f9936871da3f42aceca89ef39f914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15a370a2bb74da835b211213857f3f57') in 0.004839 seconds 
-  Import took 0.031907 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.292891 seconds.
-  path: Assets/Luke/04 - Lines.shader
-  artifactKey: Guid(4ef49039135093d40a25bfad7e628f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Luke/04 - Lines.shader using Guid(4ef49039135093d40a25bfad7e628f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad4d83c76478d5bd78ff8da8ac49aefe') in 0.003467 seconds 
-  Import took 0.013488 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.066752 seconds.
-  path: Assets/Luke/Unlit_04 - Lines.mat
-  artifactKey: Guid(e4b92a5e1fdef1c44b315c708ab04111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Luke/Unlit_04 - Lines.mat using Guid(e4b92a5e1fdef1c44b315c708ab04111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6edebe9f1da491add8afd53dfca98c0') in 0.011004 seconds 
-  Import took 0.013309 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 498.936872 seconds.
-  path: Assets/Luke/04 - Lines.shader
-  artifactKey: Guid(4ef49039135093d40a25bfad7e628f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Luke/04 - Lines.shader using Guid(4ef49039135093d40a25bfad7e628f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f12979ffc40b5f4a217a37885e4e8f') in 0.002415 seconds 
-  Import took 0.026418 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 132.557213 seconds.
-  path: Assets/Luke/02 - Hologram_01.shader
-  artifactKey: Guid(77f169368a799cf46a3c52b24dab0f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Luke/02 - Hologram_01.shader using Guid(77f169368a799cf46a3c52b24dab0f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cca47160a1008be91f0dd3dbe3ba48f') in 0.004730 seconds 
-  Import took 0.021758 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.585882 seconds.
-  path: Assets/Luke/02 - Hologram_01.shader
-  artifactKey: Guid(77f169368a799cf46a3c52b24dab0f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Luke/02 - Hologram_01.shader using Guid(77f169368a799cf46a3c52b24dab0f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9af99c8791452a8d6e5448d140aa8fd3') in 0.001841 seconds 
-  Import took 0.004089 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 52.396613 seconds.
-  path: Assets/Luke/02 - Hologram_01.shader
-  artifactKey: Guid(77f169368a799cf46a3c52b24dab0f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Luke/02 - Hologram_01.shader using Guid(77f169368a799cf46a3c52b24dab0f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4054a780b57e00120db6d9287c68242') in 0.001908 seconds 
-  Import took 0.004341 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 30.322087 seconds.
-  path: Assets/Luke/Unlit_04 - Lines.mat
-  artifactKey: Guid(e4b92a5e1fdef1c44b315c708ab04111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Luke/Unlit_04 - Lines.mat using Guid(e4b92a5e1fdef1c44b315c708ab04111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79c2acea1ffb06ed5e45cd63c7619d1d') in 0.012965 seconds 
-  Import took 0.015950 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 371.021750 seconds.
-  path: Assets/Luke/Unlit_02 - Hologram_01.mat
-  artifactKey: Guid(7c162077bc7846d4394f1d4ec9c5e0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Luke/Unlit_02 - Hologram_01.mat using Guid(7c162077bc7846d4394f1d4ec9c5e0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b11a5c0ac317bf51c5a5ef121950d01e') in 0.010340 seconds 
-  Import took 0.013539 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 427.251333 seconds.
-  path: Assets/Luke/Unlit_02 - Hologram_01.mat
-  artifactKey: Guid(7c162077bc7846d4394f1d4ec9c5e0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Luke/Unlit_02 - Hologram_01.mat using Guid(7c162077bc7846d4394f1d4ec9c5e0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff0fa25ed9cf6c629799517a1680716f') in 0.011261 seconds 
-  Import took 0.014581 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 450.838273 seconds.
-  path: Assets/Luke/Unlit_02 - Hologram_01.mat
-  artifactKey: Guid(7c162077bc7846d4394f1d4ec9c5e0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Luke/Unlit_02 - Hologram_01.mat using Guid(7c162077bc7846d4394f1d4ec9c5e0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd0a76437e85038055b221cb5707332') in 0.011952 seconds 
-  Import took 0.030550 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 108.512104 seconds.
-  path: Assets/Luke/04 - Lines.shader
-  artifactKey: Guid(4ef49039135093d40a25bfad7e628f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Luke/04 - Lines.shader using Guid(4ef49039135093d40a25bfad7e628f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a495258c8a2407d1f230bcd18d9a34b6') in 0.002529 seconds 
-  Import took 0.005221 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 88.640989 seconds.
-  path: Assets/Luke/04 - Lines.shader
-  artifactKey: Guid(4ef49039135093d40a25bfad7e628f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Luke/04 - Lines.shader using Guid(4ef49039135093d40a25bfad7e628f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8496b5226127276993d87e9862aaa409') in 0.004024 seconds 
-  Import took 0.006786 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.294033 seconds.
-  path: Assets/Luke/04 - Lines.shader
-  artifactKey: Guid(4ef49039135093d40a25bfad7e628f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Luke/04 - Lines.shader using Guid(4ef49039135093d40a25bfad7e628f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b7ed510be992f9f3ec6155bcc2d6e6') in 0.005886 seconds 
-  Import took 0.008920 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 41.105292 seconds.
-  path: Assets/Luke/04 - Lines.shader
-  artifactKey: Guid(4ef49039135093d40a25bfad7e628f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Luke/04 - Lines.shader using Guid(4ef49039135093d40a25bfad7e628f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af3c95f5059bce79d591584e0e63a65c') in 0.004586 seconds 
-  Import took 0.007671 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.081456 seconds.
-  path: Assets/Luke/04 - Lines.shader
-  artifactKey: Guid(4ef49039135093d40a25bfad7e628f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Luke/04 - Lines.shader using Guid(4ef49039135093d40a25bfad7e628f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23b5b6105fce0ce1630693c3c9a1ad98') in 0.003677 seconds 
-  Import took 0.006242 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.848114 seconds.
-  path: Assets/Luke/04 - Lines.shader
-  artifactKey: Guid(4ef49039135093d40a25bfad7e628f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Luke/04 - Lines.shader using Guid(4ef49039135093d40a25bfad7e628f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a411fd836cdd06b05fa06a1d4ba57c') in 0.002350 seconds 
-  Import took 0.005016 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.752522 seconds.
-  path: Assets/Luke/04 - Lines.shader
-  artifactKey: Guid(4ef49039135093d40a25bfad7e628f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Luke/04 - Lines.shader using Guid(4ef49039135093d40a25bfad7e628f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bed964d0576393bee27e0e8bb5624f6') in 0.003627 seconds 
-  Import took 0.006256 seconds .
+  Time since last request: 7401.844692 seconds.
+  path: Assets/Luke/10 - Final.mat
+  artifactKey: Guid(bedcae0cf49016f40bfc265bce303e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Luke/10 - Final.mat using Guid(bedcae0cf49016f40bfc265bce303e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c5e847064ec6d5f8705bc67b17f2acd') in 0.182467 seconds 
+  Import took 0.191874 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

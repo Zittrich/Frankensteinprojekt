@@ -9,6 +9,7 @@ Shader "Unlit/05 - UVLines"
         //_LineStrength ("Line Strength", Range(0.0, 5.0)) = 1.0
         _JellyStrength ("Jelly Strength", Range(0.0, 10.0)) = 1.0
         _GlobalOpacity ("Global Opacity", Range(0.0, 1.0)) = 1.0
+        _HueShifting ("Color Shift", Vector) = (0,0,0,0)
     }
     SubShader
     {
@@ -49,6 +50,7 @@ Shader "Unlit/05 - UVLines"
             //float _LineStrength;
             float _JellyStrength;
             float _GlobalOpacity;
+            float4 _HueShifting;
 
             v2f vert (vertexInput v)
             {
@@ -66,7 +68,7 @@ Shader "Unlit/05 - UVLines"
                 fixed4 lines = tex2D(_Lines, i.uv);
 
                 fixed4 col = _BaseColor;
-                return fixed4(lines);
+                return fixed4(lines.rgb * col.rgb, lines.a);
             }
             ENDCG
         }
